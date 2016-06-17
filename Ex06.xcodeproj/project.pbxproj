@@ -10,6 +10,8 @@
 		4186B4711D13365200ED344B /* ex01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4186B4701D13365200ED344B /* ex01.cpp */; };
 		4186B4781D133AB600ED344B /* ex02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4186B4771D133AB600ED344B /* ex02.cpp */; };
 		4186B47A1D133BEE00ED344B /* ex03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4186B4791D133BEE00ED344B /* ex03.cpp */; };
+		4186B47F1D14608400ED344B /* ex04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4186B47D1D14608400ED344B /* ex04.cpp */; };
+		4186B4811D14676A00ED344B /* ex05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4186B4801D14676A00ED344B /* ex05.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,9 @@
 		4186B4701D13365200ED344B /* ex01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ex01.cpp; sourceTree = "<group>"; };
 		4186B4771D133AB600ED344B /* ex02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ex02.cpp; sourceTree = "<group>"; };
 		4186B4791D133BEE00ED344B /* ex03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ex03.cpp; sourceTree = "<group>"; };
+		4186B47D1D14608400ED344B /* ex04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ex04.cpp; sourceTree = "<group>"; };
+		4186B47E1D14608400ED344B /* CircleWithConstantMemberFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CircleWithConstantMemberFunctions.hpp; sourceTree = "<group>"; };
+		4186B4801D14676A00ED344B /* ex05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ex05.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,9 @@
 				4186B4701D13365200ED344B /* ex01.cpp */,
 				4186B4771D133AB600ED344B /* ex02.cpp */,
 				4186B4791D133BEE00ED344B /* ex03.cpp */,
+				4186B47D1D14608400ED344B /* ex04.cpp */,
+				4186B47E1D14608400ED344B /* CircleWithConstantMemberFunctions.hpp */,
+				4186B4801D14676A00ED344B /* ex05.cpp */,
 			);
 			path = Ex06;
 			sourceTree = "<group>";
@@ -126,6 +134,8 @@
 			files = (
 				4186B4781D133AB600ED344B /* ex02.cpp in Sources */,
 				4186B4711D13365200ED344B /* ex01.cpp in Sources */,
+				4186B47F1D14608400ED344B /* ex04.cpp in Sources */,
+				4186B4811D14676A00ED344B /* ex05.cpp in Sources */,
 				4186B47A1D133BEE00ED344B /* ex03.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
