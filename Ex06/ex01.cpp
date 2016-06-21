@@ -6,6 +6,9 @@
 //  Copyright © 2016 Ally McConnell. All rights reserved.
 //
 
+//PT -- again, you have the right idea, but this won't compile. Come see me if you want some help.
+// 12/20
+
 #include <iostream>
 using namespace std;
 #include <string>
