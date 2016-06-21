@@ -6,6 +6,8 @@
 //  Copyright © 2016 Ally McConnell. All rights reserved.
 //
 
+//PT -- 15/20
+
 #include <iostream>
 using namespace std;
 #include <string>
@@ -18,6 +20,7 @@ public:
 public:
     Comp();
     void add(Comp, Comp);
+    //PT -- these aren't implemented
     void subtract(Comp, Comp);
     void multiply(Comp, Comp);
     void division(Comp, Comp);
@@ -33,6 +36,7 @@ void Comp::add(Comp op1, Comp op2)
 {
     real = (op1.real*op2.real+op1.img*op2.img)/(op2.real*op2.real+op2.img*op2.img);
     img = (op1.img*op2.real-op1.real*0-2.img)/(op2.real*op2.real+op2.img*op2.img);
+    //Return the result, rather than outputting it
     cout << "The division of two complex number = " << real << "+" << img << "i" << endl;
 }
 
